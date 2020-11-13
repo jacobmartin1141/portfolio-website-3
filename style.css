@@ -23,3 +23,8 @@ article div {
   margin-right: 10px;
   margin-bottom: 10px;
 }
+
+a : link {color: blue;}
+a : visited {color: green;}
+a : hover {color: red;}
+a : active {color: yellow;}
