@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(253, 237, 166);
+}
+
+header, nav, footer, article h3 {
+  text-align: center;
+}
+
+footer a, nav a, img {
+  background-color: rgb(255, 251, 38);
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+
+img, nav, header, article, footer {
+  background-color: rgb(255, 252, 92);
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+
+article div {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
