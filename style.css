@@ -12,6 +12,10 @@ footer a, nav a, img {
   border-radius: 15px;
 }
 
+footer {
+  height: 60;
+}
+
 img, nav, header, article, footer {
   background-color: rgb(255, 252, 92);
   border: 1px solid #000;
