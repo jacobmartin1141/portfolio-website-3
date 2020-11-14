@@ -28,7 +28,7 @@ article div {/*I forgot how to do internal margins (if there is such a thing, wh
   margin-bottom: 10px;
 }
 
-a: link {color: blue;} /*These pseudo links didn't work when I first introduced them, but they should be working now? (there was a misguided space between the anchor and the semicolon... Guess we'll see pretty soon here...)*/
-a: visited {color: green;}
-a: hover {color: red;}
-a: active {color: yellow;}
+a:link {color: blue;} /*These pseudo links didn't work when I first introduced them, but they should be working now? (there was a misguided space between the anchor and the semicolon... Guess we'll see pretty soon here...)*/
+a:visited {color: green;}
+a:hover {color: red;}
+a:active {color: yellow;}
