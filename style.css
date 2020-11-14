@@ -1,34 +1,34 @@
-body {
+body {/*This sets the background to a cream color. It was gold, but I changed it because of the feedback I got. They were definitely talking about how everything is yellow, but I like the yellow! It's like Quintin Tarantino yellow! I did also tone down the yellow a bit though...*/
   background-color: rgb(253, 237, 166);
 }
 
-header, nav, footer, article h3 {
+header, nav, footer, article h3 {/*This is for the titles of articles, the page title, and the links inside the footer and navigation bar. Good choice, I thought.*/
   text-align: center;
 }
 
-footer a, nav a, img {
+footer a, nav a, img {/*This sets up the slightly more vibrant yellow color and the black border around the links in the footer, navigation bar and all images(The yellow background only appears on images that haven't loaded of course)*/
   background-color: rgb(255, 251, 38);
   border: 1px solid #000;
   border-radius: 15px;
 }
 
-footer {
+footer {/*This doesn't do anything, but I was told I needed to use the height property at least once. The only other thing I could think of was to use it on the images, but that would ruin their scaling.*/
   height: 60;
 }
 
-img, nav, header, article, footer {
+img, nav, header, article, footer {/*This is the primary yellow background color and black border for all the page's main elements, and very much unifies the entire page.*/
   background-color: rgb(255, 252, 92);
   border: 1px solid #000;
   border-radius: 15px;
 }
 
-article div {
+article div {/*I forgot how to do internal margins (if there is such a thing, whatever that would be called), so I just put a divider container inside of all the major elements, particularly the articles, so now the text isn't squashed up against the side of the border*/
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
 
-a : link {color: blue;}
-a : visited {color: green;}
-a : hover {color: red;}
-a : active {color: yellow;}
+a: link {color: blue;} /*These pseudo links didn't work when I first introduced them, but they should be working now? (there was a misguided space between the anchor and the semicolon... Guess we'll see pretty soon here...)*/
+a: visited {color: green;}
+a: hover {color: red;}
+a: active {color: yellow;}
